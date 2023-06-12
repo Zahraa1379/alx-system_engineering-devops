@@ -1,2 +1,2 @@
 #!/bin/bash
-find . −empty | rev | cut -d '/' -f 1 | rev
+ls /home/user/new/*.txt| perl -pe 's/\//\n/g'|tail -1
